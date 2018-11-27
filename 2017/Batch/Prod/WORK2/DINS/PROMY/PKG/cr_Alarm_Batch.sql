@@ -10,6 +10,7 @@ DECLARE
   /* new branch source */
   v_Log_Job_No        VARCHAR2(8)   := '1610015';  -- 배치작업번호
   v_Log_Start_Date    VARCHAR2(14)  := '';
+  1st modified..
 
 BEGIN
  --// Cha beomchuul
