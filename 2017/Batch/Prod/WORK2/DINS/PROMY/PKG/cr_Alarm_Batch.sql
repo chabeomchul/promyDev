@@ -8,9 +8,11 @@ prompt >>> Jbo : 알람서비스배치
 ******************************************************************************** */
 DECLARE
   /* 2st commit...*/
+  /* branch2 ok??.*/
   v_Log_Job_No        VARCHAR2(8)   := '1610015';  -- 배치작업번호
   v_Log_Start_Date    VARCHAR2(14)  := '';
   v_Log_End_Date      VARCHAR2(14)  := '';
+  v_Log_Data_Count    number        := 0;  -- branch2 add line
 
 BEGIN
  --// Cha beomchuul
