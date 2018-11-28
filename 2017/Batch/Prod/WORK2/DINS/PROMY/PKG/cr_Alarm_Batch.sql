@@ -14,6 +14,8 @@ DECLARE
   v_Log_Start_Date    VARCHAR2(14)  := '';
   v_Log_End_Date      VARCHAR2(14)  := '';
   v_Log_Data_Count    number        := 0;  -- branch2 add line
+  v_Log_Err_Code      varchar2(20)  := '';
+
 
 BEGIN
  --// Cha beomchuul
