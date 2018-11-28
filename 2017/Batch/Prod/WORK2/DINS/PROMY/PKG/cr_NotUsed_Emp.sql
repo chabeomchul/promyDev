@@ -10,6 +10,7 @@ DECLARE
 
   /* Batch Log Variables */
   v_Log_Job_No          varchar2(8)   := '16110027';  --배치작업번호
-  
+  v_Log_Start_Date      varchar2(14)  := '';  --branch3 add
+
 BEGIN
 END;
